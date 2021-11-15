@@ -11,17 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18e2a1d-1521-4496-9498-c91639fef85c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainTrain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anomaly_detection_util.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anomaly_detection_util.h" afterDir="false" />
+    <list default="true" id="e18e2a1d-1521-4496-9498-c91639fef85c" name="Default Changelist" comment="Created the utility functions to the anomaly detector.">
+      <change afterPath="$PROJECT_DIR$/AnomalyDetector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeseries.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeseries.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainTrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MainTrain.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -55,12 +54,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="SimpleAnomalyDetector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleAnomalyDetector" TARGET_NAME="SimpleAnomalyDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimpleAnomalyDetector" RUN_TARGET_NAME="SimpleAnomalyDetector">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleAnomalyDetector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleAnomalyDetector" TARGET_NAME="SimpleAnomalyDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimpleAnomalyDetector" RUN_TARGET_NAME="SimpleAnomalyDetector">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,11 +78,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635458203907</updated>
-      <workItem from="1635458205208" duration="1190000" />
+      <workItem from="1635458205208" duration="1212000" />
+      <workItem from="1636987098026" duration="5627000" />
     </task>
+    <task id="LOCAL‎00001" summary="Created the utility functions to the anomaly detector.">
+      <created>1635459396965</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1635459396965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created the utility functions to the anomaly detector." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the utility functions to the anomaly detector." />
   </component>
 </project>
