@@ -11,12 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18e2a1d-1521-4496-9498-c91639fef85c" name="Default Changelist" comment="Created the utility functions to the anomaly detector.">
-      <change afterPath="$PROJECT_DIR$/AnomalyDetector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timeseries.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timeseries.h" afterDir="false" />
+    <list default="true" id="e18e2a1d-1521-4496-9498-c91639fef85c" name="Default Changelist" comment="Created a simple anomaly detector.">
+      <change afterPath="$PROJECT_DIR$/minCircle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minCircle.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainTrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MainTrain.cpp" afterDir="false" />
@@ -54,12 +51,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="SimpleAnomalyDetector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleAnomalyDetector" TARGET_NAME="SimpleAnomalyDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimpleAnomalyDetector" RUN_TARGET_NAME="SimpleAnomalyDetector">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="SimpleAnomalyDetector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleAnomalyDetector" TARGET_NAME="SimpleAnomalyDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimpleAnomalyDetector" RUN_TARGET_NAME="SimpleAnomalyDetector">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1635458203907</updated>
       <workItem from="1635458205208" duration="1212000" />
-      <workItem from="1636987098026" duration="5627000" />
+      <workItem from="1636987098026" duration="5860000" />
+      <workItem from="1637002354948" duration="1831000" />
     </task>
     <task id="LOCAL‎00001" summary="Created the utility functions to the anomaly detector.">
       <created>1635459396965</created>
@@ -87,7 +85,13 @@
       <option name="presentableId" value="LOCAL‎00001" />
       <updated>1635459396965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎00002" summary="Created a simple anomaly detector.">
+      <created>1636997609822</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1636997609822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,9 +107,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created the utility functions to the anomaly detector." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the utility functions to the anomaly detector." />
+    <MESSAGE value="Created a simple anomaly detector." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a simple anomaly detector." />
   </component>
 </project>
