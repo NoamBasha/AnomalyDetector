@@ -10,29 +10,37 @@
 #include <string.h>
 #include <math.h>
 
-struct correlatedFeatures{
-	string feature1,feature2;  // names of the correlated features
-	float corrlation;
-	Line lin_reg;
-	float threshold;
+struct correlatedFeatures {
+    string feature1, feature2;  // names of the correlated features
+    float corrlation;
+    Line lin_reg;
+    float threshold;
+    Point center;
 };
 
 
-class SimpleAnomalyDetector:public TimeSeriesAnomalyDetector{
-	vector<correlatedFeatures> cf;
+class SimpleAnomalyDetector : public TimeSeriesAnomalyDetector {
 public:
-	SimpleAnomalyDetector();
-	virtual ~SimpleAnomalyDetector();
+    SimpleAnomalyDetector();
 
-	virtual void learnNormal(const TimeSeries& ts);
-	virtual vector<AnomalyReport> detect(const TimeSeries& ts);
+    virtual ~SimpleAnomalyDetector();
 
-	vector<correlatedFeatures> getNormalModel(){
-		return cf;
-	}
+    virtual void learnNormal(const TimeSeries &ts);
+
+    virtual vector<AnomalyReport> detect(const TimeSeries &ts);
+
+    vector<correlatedFeatures> getNormalModel() {
+        return cf;
+    }
+
+    virtual void learnNormalHelper(const TimeSeries &ts, float maxPearson, string feature1Str, string feature2Str);
+
+    virtual bool isAnomaly(Point p, correlatedFeatures c);
+
+protected:
+    vector<correlatedFeatures> cf;
 
 };
-
 
 
 #endif /* SIMPLEANOMALYDETECTOR_H_ */
