@@ -11,16 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18e2a1d-1521-4496-9498-c91639fef85c" name="Default Changelist" comment="Added a hybrid anomaly detector">
-      <change afterPath="$PROJECT_DIR$/CLI.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLI.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commands.h" afterDir="false" />
+    <list default="true" id="e18e2a1d-1521-4496-9498-c91639fef85c" name="Default Changelist" comment="Added CLI and commands">
+      <change afterPath="$PROJECT_DIR$/Server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HybridAnomalyDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/HybridAnomalyDetector.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainTrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MainTrain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +53,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="SimpleAnomalyDetector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleAnomalyDetector" TARGET_NAME="SimpleAnomalyDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimpleAnomalyDetector" RUN_TARGET_NAME="SimpleAnomalyDetector">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="SimpleAnomalyDetector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleAnomalyDetector" TARGET_NAME="SimpleAnomalyDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimpleAnomalyDetector" RUN_TARGET_NAME="SimpleAnomalyDetector">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -86,7 +82,8 @@
       <workItem from="1637002354948" duration="2603000" />
       <workItem from="1639689700937" duration="677000" />
       <workItem from="1639691512514" duration="3132000" />
-      <workItem from="1639694735316" duration="1070000" />
+      <workItem from="1639694735316" duration="1218000" />
+      <workItem from="1639695971491" duration="945000" />
     </task>
     <task id="LOCAL‎00001" summary="Created the utility functions to the anomaly detector.">
       <created>1635459396965</created>
@@ -112,7 +109,13 @@
       <option name="presentableId" value="LOCAL‎00004" />
       <updated>1639694663718</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎00005" summary="Added CLI and commands">
+      <created>1639695954254</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1639695954254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +138,7 @@
     <MESSAGE value="Created a simple anomaly detector." />
     <MESSAGE value="Created a minimal circle finding algorithm (welzl's)." />
     <MESSAGE value="Added a hybrid anomaly detector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a hybrid anomaly detector" />
+    <MESSAGE value="Added CLI and commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CLI and commands" />
   </component>
 </project>
