@@ -3,8 +3,7 @@
 using namespace std;
 
 SimpleAnomalyDetector::SimpleAnomalyDetector() {
-    // TODO Auto-generated constructor stub
-
+    threshold = 0.9;
 }
 
 SimpleAnomalyDetector::~SimpleAnomalyDetector() {
@@ -70,7 +69,7 @@ void SimpleAnomalyDetector::learnNormalHelper(const TimeSeries &ts, float maxPea
 
     correlatedFeatures currentCF;
 
-    if (maxPearson > 0.9) {
+    if (maxPearson > threshold) {
         currentCF.corrlation = maxPearson;
         Point *points[valueVectorSize];
         for (int j = 0; j < valueVectorSize; ++j) {

@@ -37,8 +37,17 @@ public:
 
     virtual bool isAnomaly(Point p, correlatedFeatures c);
 
+    void setThreshold(float threshold) {
+        this->threshold = threshold;
+    }
+
+    float getThreshold() {
+        return threshold;
+    }
+
 protected:
     vector<correlatedFeatures> cf;
+    float threshold;
 
 };
 

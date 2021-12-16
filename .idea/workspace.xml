@@ -11,15 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18e2a1d-1521-4496-9498-c91639fef85c" name="Default Changelist" comment="Created a minimal circle finding algorithm (welzl's).">
-      <change afterPath="$PROJECT_DIR$/HybridAnomalyDetector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HybridAnomalyDetector.h" afterDir="false" />
+    <list default="true" id="e18e2a1d-1521-4496-9498-c91639fef85c" name="Default Changelist" comment="Added a hybrid anomaly detector">
+      <change afterPath="$PROJECT_DIR$/CLI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridAnomalyDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/HybridAnomalyDetector.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainTrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MainTrain.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anomaly_detection_util.h" beforeDir="false" afterPath="$PROJECT_DIR$/anomaly_detection_util.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +52,17 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\באשה\CLionProjects\SimpleAnomalyDetector" />
+      <recent name="C:\Users\באשה\CLionProjects\SimpleAnomalyDetector\cmake-build-debug" />
+      <recent name="C:\Users\באשה\CLionProjects\SimpleAnomalyDetector\cmake-build-debug\CMakeFiles" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="SimpleAnomalyDetector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleAnomalyDetector" TARGET_NAME="SimpleAnomalyDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimpleAnomalyDetector" RUN_TARGET_NAME="SimpleAnomalyDetector">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleAnomalyDetector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleAnomalyDetector" TARGET_NAME="SimpleAnomalyDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimpleAnomalyDetector" RUN_TARGET_NAME="SimpleAnomalyDetector">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,7 +85,8 @@
       <workItem from="1636987098026" duration="5860000" />
       <workItem from="1637002354948" duration="2603000" />
       <workItem from="1639689700937" duration="677000" />
-      <workItem from="1639691512514" duration="2859000" />
+      <workItem from="1639691512514" duration="3132000" />
+      <workItem from="1639694735316" duration="1070000" />
     </task>
     <task id="LOCAL‎00001" summary="Created the utility functions to the anomaly detector.">
       <created>1635459396965</created>
@@ -102,7 +106,13 @@
       <option name="presentableId" value="LOCAL‎00003" />
       <updated>1637004380930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎00004" summary="Added a hybrid anomaly detector">
+      <created>1639694663718</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1639694663718</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,17 +134,7 @@
     <MESSAGE value="Created the utility functions to the anomaly detector." />
     <MESSAGE value="Created a simple anomaly detector." />
     <MESSAGE value="Created a minimal circle finding algorithm (welzl's)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a minimal circle finding algorithm (welzl's)." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/MainTrain.cpp</url>
-          <line>137</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added a hybrid anomaly detector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a hybrid anomaly detector" />
   </component>
 </project>

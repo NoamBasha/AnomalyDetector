@@ -3,7 +3,6 @@
 
 HybridAnomalyDetector::HybridAnomalyDetector() {
     // TODO Auto-generated constructor stub
-
 }
 
 HybridAnomalyDetector::~HybridAnomalyDetector() {
@@ -12,7 +11,7 @@ HybridAnomalyDetector::~HybridAnomalyDetector() {
 
 void HybridAnomalyDetector::learnNormalHelper(const TimeSeries &ts, float maxPearson, string feature1Str,
                                               string feature2Str) {
-    if (maxPearson > 0.9) {
+    if (maxPearson > threshold) {
         SimpleAnomalyDetector::learnNormalHelper(ts, maxPearson, feature1Str, feature2Str);
     } else if (maxPearson > 0.5) {
         map<string, vector<float>> tsMap = ts.getMap();
@@ -38,7 +37,7 @@ void HybridAnomalyDetector::learnNormalHelper(const TimeSeries &ts, float maxPea
 }
 
 bool HybridAnomalyDetector::isAnomaly(Point p, correlatedFeatures c) {
-    if (c.corrlation >= 0.9) {
+    if (c.corrlation >= threshold) {
         return SimpleAnomalyDetector::isAnomaly(p, c);
     } else if (c.corrlation >= 0.5) {
         return (distanceBetweenPoints(p, c.center) > c.threshold);
